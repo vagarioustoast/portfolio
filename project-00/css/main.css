@@ -28,9 +28,9 @@ nav a:hover {
   background-size: cover;
 }
 
-.banner-inner{
+.banner-inner {
   position: relative;
-  top: 15rem;
+  top: 11rem;
   left: 4rem;
 }
 
@@ -46,7 +46,7 @@ h3 {
   text-shadow: 0 1px 2vw #24292d;
 }
 
-.main-content{
+.main-content {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: repeat(12, minmax(0, 1fr));
@@ -114,9 +114,9 @@ img {
 }
 
 .slider .slides {
-    background: #24292d;
-    margin-left: 2rem;
-  }
+  background: #24292d;
+  margin-left: 2rem;
+}
 
 #contact {
   grid-column: 7 / 13;
@@ -158,14 +158,15 @@ footer p {
 
 .footer {
   margin-top: 6rem;
-  padding-top: .5rem;
+  padding-top: 0.5rem;
   display: flex;
   align-items: ;
   flex-direction: row;
   justify-content: center;
 }
 
-.btn-floating, .btn-floating:hover {
+.btn-floating,
+.btn-floating:hover {
   background-color: #24292d;
 }
 
@@ -175,15 +176,13 @@ footer p {
 }
 
 .footer i:hover {
- text-shadow: 0 1px 1vw limegreen;
+  text-shadow: 0 1px 1vw limegreen;
 }
-
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 689px){
-
-  .banner{
+@media screen and (max-width: 689px) {
+  .banner {
     height: 30vh;
   }
 
@@ -196,7 +195,8 @@ footer p {
     margin-bottom: -1rem;
   }
 
-  h1, h3 {
+  h1,
+  h3 {
     font-size: 2.3rem;
   }
 
@@ -206,14 +206,14 @@ footer p {
   }
 
   .photo img {
-   display: none;
+    display: none;
   }
 
   #intro {
-    grid-column: 1 / 13
+    grid-column: 1 / 13;
   }
 
-/*Collapse bottom divs*/
+  /*Collapse bottom divs*/
   #testimonials {
     float: none;
     display: block;
@@ -224,7 +224,7 @@ footer p {
   }
 
   #contact {
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     display: block;
     grid-column: 1 / 13;
   }
@@ -234,16 +234,8 @@ footer p {
   }
 }
 
-@media screen and (max-width: 430px){
-
+@media screen and (max-width: 430px) {
   #intro {
     max-height: 40%;
   }
 }
-
-
-
-
-
-
-
